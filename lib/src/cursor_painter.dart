@@ -12,7 +12,8 @@ class CursorPainter extends CustomPainter {
     final p2 = Offset(0, size.height);
     final paint = Paint()
       ..color = cursorColor
-      ..strokeWidth = cursorWidth;
+      ..strokeWidth = cursorWidth
+      ..strokeCap = StrokeCap.round;
     canvas.drawLine(p1, p2, paint);
   }
 

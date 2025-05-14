@@ -1,7 +1,13 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:pin_code_fields/pin_code_fields.dart';
+import 'package:pin_code_fields/pin_code_fields.dart'
+    show
+        PinCodeTextField,
+        ErrorAnimationType,
+        AnimationType,
+        PinTheme,
+        PinCodeFieldShape;
 
 import './constants/constants.dart';
 
